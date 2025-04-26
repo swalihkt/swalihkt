@@ -1,55 +1,53 @@
-# Task 4: Interactive Dashboard Design
+# Interactive Sales Dashboard – Power BI
 
 ## **Objective**
-To design an interactive sales dashboard for business stakeholders using Power BI, with clear KPIs and visual storytelling that supports business decision-making.
+Design an interactive Power BI dashboard for business stakeholders that provides key insights into sales performance.
 
 ---
 
 ## **Tool Used**
-- **Power BI**
+- Power BI
 
 ## **Dataset**
 - `train.csv` (Source: Kaggle)
 
 ---
 
-## **Steps Followed**
-
-### **1. Data Preparation**
-- Loaded the dataset into Power BI
-- Cleaned data:
-  - Removed null, blank, and duplicate rows
-  - Corrected data types
-  - Formatted dates using locale settings
-- Created new calculated columns:
-  - `OrderMonth`, `OrderYear`, `YearMonth` for trend analysis
-  - `Delivery Days` using DATEDIFF
-- Created key measures:
-  - `Total Sales`, `Avg Sales per Order`, `Total Orders`, `Profit`
+## **Data Preparation**
+- Loaded the dataset into Power BI.
+- Cleaned the data by:
+  - Removing null values, blank rows, and duplicate records.
+  - Correcting data types for accurate analysis.
+  - Applied locale settings for proper date formatting.
+- Created new calculated columns and measures:
+  - `OrderMonth`, `OrderYear`, `YearMonth` (for trend analysis)
+  - `Avg Sales per Order`, `Total Orders`, `Total Sales`, `Profit`
+  - `Delivery Days` (calculated using DATEDIFF between `Ship Date` and `Order Date`)
 
 ---
 
-### **2. Dashboard Design**
-- **KPIs Displayed**:
-  - Total Sales, Avg Sales per Order, Total Orders (Card visuals)
-- **Charts Used**:
-  - Profit by Segment (Column Chart)
-  - Top 10 States by Sales (Column Chart)
-  - Orders by Ship Mode (Column Chart)
-  - Average Delivery Days by Ship Mode (Bar Chart)
-- **Interactive Features**:
-  - Segment slicer for dynamic filtering
-- **Design Elements**:
-  - Curved borders for visuals
-  - Custom image background
-  - Consistent color theme
+## **Dashboard Design**
 
----
+### **KPIs Displayed**
+- **Total Sales**
+- **Average Sales per Order**
+- **Total Orders**
 
-## **Key Insights**
-- Consumer segment is most profitable
-- California has the highest sales
-- Standard Class is the most-used shipping mode with ~5-day delivery
+### **Charts Used**
+- **Sales by Region** (Column Chart)
+- **Sales by Category** (Bar Chart)
+- **Profit by Segment** (Column Chart)
+- **Top 10 States by Sales** (Column Chart)
+- **Orders by Ship Mode** (Column Chart)
+- **Average Delivery Days by Ship Mode** (Bar Chart)
+
+### **Interactive Elements**
+- **Segment Slicer** for dynamic filtering
+
+### **Design Features**
+- Curved borders on visuals
+- Visual backgrounds removed
+- Custom image used as page background
 
 ---
 
@@ -62,4 +60,4 @@ To design an interactive sales dashboard for business stakeholders using Power B
 ---
 
 ## **Outcome**
-This project helped in learning how to design a professional and interactive dashboard that clearly presents data-driven business insights using Power BI.
+This dashboard helps business stakeholders monitor and evaluate key sales metrics and performance indicators in a visually appealing and interactive manner.
